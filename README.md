@@ -8,4 +8,5 @@ Aplicações criadas para fixação dos assuntos abordados no módulo do Bootcam
 - [Calculadora](Calculadora/calculadora.js)
 - [Contador](contador-js/assets/js/scripts.js)
 - [Comparador de números](Comparar-numeros/comparar.js)
+- [Polídromo](palindromo/palindromo.js)
 
