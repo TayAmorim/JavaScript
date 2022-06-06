@@ -10,4 +10,5 @@ Aplicações criadas para fixação dos assuntos abordados no módulo do Bootcam
 - [Comparador de números](Comparar-numeros/comparar.js)
 - [Palídromo](palindromo/palindromo.js)
 - [Substituir numeros pares](arraysPares/arraysPares.js)
-- [Alunos aprovados](alunos-aprovados/playground.js)
+- [Alunos aprovados](usando-For/playground.js)
+- [Lista de compras](usando-For/compras.js)
