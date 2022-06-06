@@ -12,3 +12,4 @@ Aplicações criadas para fixação dos assuntos abordados no módulo do Bootcam
 - [Substituir numeros pares](arraysPares/arraysPares.js)
 - [Alunos aprovados](usando-For/playground.js)
 - [Lista de compras](usando-For/compras.js)
+- [Calculadora de Idade](this/calcula-idade.js)
