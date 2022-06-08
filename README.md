@@ -1,7 +1,7 @@
 <h1 align = "center" >Praticando JavaScript</h1>
 
 ## :page_facing_up: Sobre
-Aplicações criadas para fixação dos assuntos abordados no módulo do Bootcamp da Dio.
+Aplicações criadas para fixação dos assuntos no estudo de JavaScript.
 
 ## :open_file_folder: Projetos
 
