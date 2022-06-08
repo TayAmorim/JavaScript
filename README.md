@@ -1,4 +1,4 @@
-<h1 align = "center" >Praticando JavaScirpt</h1>
+<h1 align = "center" >Praticando JavaScript</h1>
 
 ## :page_facing_up: Sobre
 Aplicações criadas para fixação dos assuntos abordados no módulo do Bootcamp da Dio.
