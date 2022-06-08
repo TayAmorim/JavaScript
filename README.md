@@ -14,3 +14,4 @@ Aplicações criadas para fixação dos assuntos abordados no módulo do Bootcam
 - [Lista de compras](usando-For/compras.js)
 - [Calculadora de Idade](this/calcula-idade.js)
 - [Debug-Error](debug-error/validaArrays.js)
+- [JavaScript Assícrono](javaScript-assicrono/assets/js/scripts.js)
