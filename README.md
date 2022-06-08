@@ -15,3 +15,5 @@ Aplicações criadas para fixação dos assuntos abordados no módulo do Bootcam
 - [Calculadora de Idade](this/calcula-idade.js)
 - [Debug-Error](debug-error/validaArrays.js)
 - [JavaScript Assícrono](javaScript-assicrono/assets/js/scripts.js)
+- [Orientação a Objeto](orientacao-a-objeto/scripts.js)
+  
