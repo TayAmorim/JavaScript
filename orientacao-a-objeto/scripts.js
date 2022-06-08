@@ -1,9 +1,9 @@
 class ContaBancaria {
-  constructor(agencia, numero, tipo, saldo) {
+  constructor(agencia, numero, tipo) {
     this.agencia = agencia
     this.numero = numero
     this.tipo = tipo
-    this._saldo = saldo
+    this._saldo = 0
   }
 
   get saldo() {
@@ -28,7 +28,7 @@ class ContaBancaria {
   }
 }
 
-class ContaCorrente {
+class ContaCorrente extends ContaBancaria {
   constructor(agencia, numero, saldo, cartaoCredito) {
     super(agencia, numero, saldo)
     this.tipo = 'Corrente'
@@ -44,16 +44,16 @@ class ContaCorrente {
   }
 }
 
-class ContaPoupanca {
-  constructor(agencia, numero, saldo) {
-    super(agencia, numero, saldo)
+class ContaPoupanca extends ContaBancaria {
+  constructor(agencia, numero) {
+    super(agencia, numero)
     this.tipo = 'Poupança'
   }
 }
 
-class ContaUniversitaria {
-  constructor(agencia, numero, saldo) {
-    super(agencia, numero, saldo)
+class ContaUniversitaria extends ContaBancaria {
+  constructor(agencia, numero) {
+    super(agencia, numero)
     this.tipo = 'Universitária'
   }
 
