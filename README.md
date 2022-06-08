@@ -16,4 +16,5 @@ Aplicações criadas para fixação dos assuntos no estudo de JavaScript.
 - [Debug-Error](./Digital-Innovation-One/debug-error/validaArrays.js)
 - [JavaScript Assícrono](./Digital-Innovation-One/javaScript-assicrono/assets/js/scripts.js)
 - [Orientação a Objeto](./Digital-Innovation-One/orientacao-a-objeto/scripts.js)
+- [Manipulação do DOM](./Digital-Innovation-One/DOM/assets/js/script.js)
   
