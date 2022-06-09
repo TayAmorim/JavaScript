@@ -12,7 +12,7 @@ function Person(name, nota) {
   this.media = function() {
     let media = this.nota / 2
     if(media >= 3) {
-      return this.name + ' você foi aprovado sua média foi de ' + media
+      return 'você foi aprovado sua média foi de ' + media
     } else {
       return this.name + ' você ficou abaixo da nota sua média foi de ' + media
     }
@@ -25,4 +25,3 @@ let aluno3 = new Person('josé', 9)
 
 console.log(aluno1, aluno2, aluno3)
 console.log(aluno2.media())
-console.log(aluno3.media())
