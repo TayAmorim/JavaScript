@@ -21,3 +21,4 @@ Aplicações criadas para fixação dos assuntos no estudo de JavaScript.
 ## :open_file_folder: Projetos: Rocketseat
 
 - [Exercício de Fixação](./Rocketseat/praticando-e-avancado/script.js)
+- [Function](./Rocketseat/functions/functions.js)
