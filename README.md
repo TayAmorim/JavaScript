@@ -18,7 +18,8 @@ Aplicações criadas para fixação dos assuntos no estudo de JavaScript.
 - [Orientação a Objeto](./Digital-Innovation-One/orientacao-a-objeto/scripts.js)
 - [Manipulação do DOM](./Digital-Innovation-One/DOM/assets/js/script.js)
   
-## :open_file_folder: Projetos: Rocketseat
+## :memo: Projetos e Anotações: Rocketseat
 
 - [Exercício de Fixação](./Rocketseat/praticando-e-avancado/script.js)
 - [Function](./Rocketseat/functions/)
+- [Manipulação de dados](./Rocketseat/Manipulando-dados/)
