@@ -16,7 +16,7 @@
 
 /**
  * New
- *
+ 
  * Left-hand-side expression
  * Criar um novo objeto
     let name = new String('Tayanna')
@@ -27,7 +27,7 @@
 
 /**
  * Operadores unários
- * 
+ 
  * typeof
  * delet
     const person = {
