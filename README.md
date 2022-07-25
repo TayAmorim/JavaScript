@@ -8,6 +8,7 @@ Aplicações criadas para fixação dos assuntos no estudo de JavaScript.
 - [Exercício de Fixação](./Rocketseat/praticando-e-avancado/script.js)
 - [Function](./Rocketseat/funcao/)
 - [Manipulação de dados](./Rocketseat/Manipulando-dados/)
+- [Expressão e Operadores](./Rocketseat/expressions-operators/expressions.md)
 
 
 ## :open_file_folder: Projetos: TQI Fullstack Developer
