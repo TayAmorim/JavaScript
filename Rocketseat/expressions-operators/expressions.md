@@ -16,8 +16,8 @@ Este artigo descreve expressões e operadores de JavaScript.
   - [Falsy e truthy](#false-truthy)
   - [Precedência dos operadores](#precedencia)
   
-
-## :red_circle: Operators {#operadores}
+****
+<h2 id="operadores">Operators</h2> 
 
  **Binary**
 Exige dois operandos, um antes do operador e outro depois:
@@ -40,8 +40,8 @@ console.log(++number)
 let number = 1
 console.log(false ? 'alo' : 'nada')
 ```
-
-<h3 id="new">New</h3> 
+****
+<h2 id="new">New</h2> 
 
 Left-hand-side expression - Cria um novo objeto
 ```JavaScript
@@ -53,7 +53,8 @@ console.log(name, name.surName)
 
 //Saída esperada: String {'Tayanna', surName: 'Amorim'} 'Amorim'
 ```
-### :red_circle: Operadores unários {#unarios}
+****
+<h2 id="unarios">Operadores unários</h2>
 
  **Typeof**
 Retorna uma string indicando o tipo de um operando.
@@ -77,7 +78,8 @@ console.log(person)
 
 //Saída esperada: {name: 'Tayanna'}
 ```
-### :red_circle: Operadores Aritméticos {#aritmeticos}
+****
+<h2 id="aritmeticos">Operadores Aritméticos</h2>
 
 **multiplicação** 
 ```JavaScript
@@ -143,8 +145,8 @@ console.log(3 ** 3)
 
 //Saída esperada: 27
 ```
-
-### :red_circle: Grouping operadtor {#operadtor}
+****
+<h2 id="operadtor">Grouping operadtor</h2>
 O operador de agrupamento consiste em um par de parênteses em volta de uma expressão, ou sub-expressão, para ignorar a precedência normal de operadores de modo que expressões com menor precedência possam ser avaliadas antes de uma expressão com maior prioridade.
 
 ```JavaScript
@@ -170,8 +172,8 @@ console.log((a + b) * c )
 a * c + b * c 
 //Saída esperada: 9
 ```
-
-### :red_circle: Operadores de comparação {#comparacao}
+****
+<h2 id="comparacao">Operadores de comparação</h2>
 irá comparar valores e retornar um **Boolean** como resposta á comparação
 
 ```JavaScript
@@ -254,8 +256,8 @@ console.log(one <= 1)
 console.log(one <= 0)
 //Saída esperada: false
 ```
-
-### :red_circle: Operadores de atribuição (Assignment) {#assignment}
+****
+<h2 id="assignment">Operadores de atribuição (Assignment)</h2>
 Armazenam um valor no objeto especificado pelo operando esquerdo.
 ```JavaScript
 //Variável usada como exemplo
@@ -312,8 +314,9 @@ x %= 2
 console.log(x)
 //Saída esperada: 1
 ```
+****
+<h2 id="logicos">Operadores lógicos (logical operators)</h2>
 
-### :red_circle: Operadores lógicos (logical operators) {#logicos}
  2 valores booleanos, quando verificado, resultará em verdadeiro ou falso
 
 **Exemplo:** Você precisa ir a feira, comprar os ingredientes para fazer um sanduiche. Os ingredientes necessários são: Pão E queijo
@@ -355,8 +358,9 @@ let queijo = false
 console.log(!pao)
 //Saída esperada: false
 ```
+****
+<h2 id="condicional">Operadores Condicional (Ternário)</h2>
 
-### :red_circle: Operadores Condicional (Ternário) {#condicional}
 Dependendo da condição, o valor recebido pode ser diferentes
 ```JavaScript
 //Condição - Valor1 - se não - Valor 2
@@ -423,8 +427,9 @@ const buyCoffe =
 console.log(buyCoffe)
 //Saída esperada: Marta pode comprar o café
 ```
+****
+<h2 id="string">Operador de String</h2>
 
-### :red_circle: Operador de String {#string}
 
 **Comparação**
 ```JavaScript
@@ -440,8 +445,9 @@ let sobrenome = 'Amorim'
 console.log(nome + sobrenome)
 //Saída esperada: TayannaAmorim
 ```
+****
+<h2 id="false-truthy">Falsy e truthy</h2>
 
-### :red_circle: Falsy e truthy {#false-truthy}
 O **falsy** é quando um valor é considerado falso em contextos que onde um booleano é obrigatório (condicionais e loops), exemplo a seguir:
 ```JavaScript
 /*
@@ -477,8 +483,9 @@ true
 console.log(Infinity ? 'verdadeiro' : 'falso')
 //Saída esperada: verdadeiro
 ```
+****
+<h2 id="precedencia">Precedência dos operadores</h2>
 
-### :red_circle: Precedência dos operadores {#precedencia}
 A ordem de importância de cada operador.
 
 ```JavaScript
