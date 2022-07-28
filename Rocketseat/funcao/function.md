@@ -9,8 +9,8 @@
   - [Arrow Function](#arrow)
 
 
-
-## :red_circle:  Function() constructor {#function-construtor}
+****
+<h2 id="function-construtor">Function() constructor </h2> 
 
 ```javaScript
   * expressão new
@@ -49,8 +49,9 @@ console.log(aluno2.media())
 console.log(aluno3.media())
 //Saída esperada: josé você foi aprovado sua média foi de 4.5
 ```
+****
+<h2 id="scope">Function scope</h2> 
 
-## :red_circle: Function scope {#scope}
 Uma function serve como um procedimento em JavaScript, e portanto, cria um escopo, de modo que (por exemplo) uma variável definida exclusivamente dentro da função não pode ser acessada de fora da função ou dentro de outras funções.
 ```javaScript
 let nome = 'Tayanna'
@@ -65,8 +66,9 @@ console.log(creatName(nome))
 console.log(nome)
 //Saída esperada: Tayanna
 ```
+****
+<h2 id="hoisting">Function Hoisting</h2> 
 
-## :red_circle: Function Hoisting {#hoisting}
 Ele permite que você execute funções antes das suas declarações. Na prática, inicialmente as declarações de funções são colocadas na memória durante a fase de compilação e, mesmo assim, permanecem no mesmo lugar que estão digitadas.
 
 ```javaScript
@@ -97,8 +99,9 @@ console.log(metodosCafe)
 let metodosCafe = 'Koar'
 //Saída esperada:  Cannot access 'metodosCafe' before initialization ou seja não é possivel acessar metodosCafe
 ```
+****
+<h2 id="express">Function Express</h2> 
 
-## :red_circle: Function Express {#express}
 A palavra-chave function pode ser usada para definir uma função generator dentro de uma expressão.
 Uma function anonymous(**Função anônima**), cria uma função sem que anteriormente haja um nome para ela:
 Elas somente são declaradas em variáveis.
@@ -119,8 +122,9 @@ console.log(`O número 2 é ${number2}`)
 console.log(`a soma é ${total}`)
 //Saída esperada: a soma é 59
 ```
+****
+<h2 id="callback">Callback Function</h2> 
 
-## :red_circle: Callback Function {#callback}
 É uma função passada a outra função como argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.
 
 **Exemplo1**
@@ -139,7 +143,9 @@ sayMyName(() => {
 // estou em uma callback
 //depois de executar a função callback
 ```
-## :red_circle: Arrow Function {#arrow}
+****
+<h2 id="arrow">Arrow Function</h2> 
+
 Nos permitem escrever uma sintaxe de função mais curta:
 ```javaScript
 //Sem arrow function
