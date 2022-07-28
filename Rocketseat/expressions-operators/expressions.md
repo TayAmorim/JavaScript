@@ -5,16 +5,16 @@ Este artigo descreve expressões e operadores de JavaScript.
 #### :card_index: Índice
 
   - [New](#new)
-  - [Operadores unários](#operadores-unarios)
-  - [Operadores Aritméticos](#operadores-aritmeticos)
-  - [Grouping operadtor](#grouping-operadtor)
-  - [Operadores de comparação](#operadores-de-comparacao)
+  - [Operadores unários](#unarios)
+  - [Operadores Aritméticos](#aritmeticos)
+  - [Grouping operadtor](#operadtor)
+  - [Operadores de comparação](#comparacao)
   - [Operadores de atribuição (Assignment)](#assignment)
-  - [Operadores lógicos (logical operators)](#operadores-logicos)
-  - [Operadores Condicional (Ternário)](#operadores-condicional)
+  - [Operadores lógicos (logical operators)](#logicos)
+  - [Operadores Condicional (Ternário)](#condicional)
   - [Operador de String](#string)
   - [Falsy e truthy](#false-truthy)
-  - [Precedência dos operadores](#precedencia-operadores)
+  - [Precedência dos operadores](#precedencia)
   
 
 ## :red_circle: Operators {#operadores}
@@ -53,7 +53,7 @@ console.log(name, name.surName)
 
 //Saída esperada: String {'Tayanna', surName: 'Amorim'} 'Amorim'
 ```
-### :red_circle: Operadores unários {#operadores-unarios}
+### :red_circle: Operadores unários {#unarios}
 
  **Typeof**
 Retorna uma string indicando o tipo de um operando.
@@ -77,7 +77,7 @@ console.log(person)
 
 //Saída esperada: {name: 'Tayanna'}
 ```
-### :red_circle: Operadores Aritméticos {#operadores-aritmeticos}
+### :red_circle: Operadores Aritméticos {#aritmeticos}
 
 **multiplicação** 
 ```JavaScript
@@ -144,7 +144,7 @@ console.log(3 ** 3)
 //Saída esperada: 27
 ```
 
-### :red_circle: Grouping operadtor {#grouping-operadtor}
+### :red_circle: Grouping operadtor {#operadtor}
 O operador de agrupamento consiste em um par de parênteses em volta de uma expressão, ou sub-expressão, para ignorar a precedência normal de operadores de modo que expressões com menor precedência possam ser avaliadas antes de uma expressão com maior prioridade.
 
 ```JavaScript
@@ -171,7 +171,7 @@ a * c + b * c
 //Saída esperada: 9
 ```
 
-### :red_circle: Operadores de comparação {#operadores-de-comparacao}
+### :red_circle: Operadores de comparação {#comparacao}
 irá comparar valores e retornar um **Boolean** como resposta á comparação
 
 ```JavaScript
@@ -313,7 +313,7 @@ console.log(x)
 //Saída esperada: 1
 ```
 
-### :red_circle: Operadores lógicos (logical operators) {#operadores-logicos}
+### :red_circle: Operadores lógicos (logical operators) {#logicos}
  2 valores booleanos, quando verificado, resultará em verdadeiro ou falso
 
 **Exemplo:** Você precisa ir a feira, comprar os ingredientes para fazer um sanduiche. Os ingredientes necessários são: Pão E queijo
@@ -356,7 +356,7 @@ console.log(!pao)
 //Saída esperada: false
 ```
 
-### :red_circle: Operadores Condicional (Ternário) {#operadores-condicional}
+### :red_circle: Operadores Condicional (Ternário) {#condicional}
 Dependendo da condição, o valor recebido pode ser diferentes
 ```JavaScript
 //Condição - Valor1 - se não - Valor 2
@@ -478,7 +478,7 @@ console.log(Infinity ? 'verdadeiro' : 'falso')
 //Saída esperada: verdadeiro
 ```
 
-### :red_circle: Precedência dos operadores {#precedencia-operadores}
+### :red_circle: Precedência dos operadores {#precedencia}
 A ordem de importância de cada operador.
 
 ```JavaScript
