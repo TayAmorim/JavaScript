@@ -17,7 +17,7 @@ Este artigo descreve expressões e operadores de JavaScript.
   - [Precedência dos operadores](#precedencia)
   
 
-## :red_circle: Operators {#operadores}
+### :red_circle: Operators {#operadores}
 
  **Binary**
 Exige dois operandos, um antes do operador e outro depois:
@@ -41,7 +41,7 @@ let number = 1
 console.log(false ? 'alo' : 'nada')
 ```
 
-### :red_circle: New {#new}
+### New {#new}
 
 Left-hand-side expression - Cria um novo objeto
 ```JavaScript
