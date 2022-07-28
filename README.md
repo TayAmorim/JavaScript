@@ -5,10 +5,10 @@ Aplicações criadas para fixação dos assuntos no estudo de JavaScript.
 
 ## :memo: Projetos e Anotações: Rocketseat
 
-- [Exercício de Fixação](./Rocketseat/praticando-e-avancado/script.js)
-- [Function](./Rocketseat/funcao/)
+- [Function](./Rocketseat/funcao/function.md)
 - [Manipulação de dados](./Rocketseat/Manipulando-dados/)
 - [Expressão e Operadores](./Rocketseat/expressions-operators/expressions.md)
+- [Exercício de Fixação](./Rocketseat/praticando-e-avancado/script.js)
 
 
 ## :open_file_folder: Projetos: TQI Fullstack Developer
